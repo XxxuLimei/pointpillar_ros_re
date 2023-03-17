@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/xilm/fuxian/pointpillars-ros/src/pointpillars_ros-main/tools/ros.py", line 210, in <module>
+    sec = Pointpillars_ROS()
+  File "/home/xilm/fuxian/pointpillars-ros/src/pointpillars_ros-main/tools/ros.py", line 49, in __init__
+    self.init_pointpillars(config_path, ckpt_path)
+  File "/home/xilm/fuxian/pointpillars-ros/src/pointpillars_ros-main/tools/ros.py", line 69, in init_pointpillars
+    cfg_from_yaml_file(config_path, cfg)  # 加载配置文件
+  File "/home/xilm/fuxian/Voxel_Field_Fusion/VFF-main/pcdet/config.py", line 78, in cfg_from_yaml_file
+    merge_new_config(config=config, new_config=new_config)
+  File "/home/xilm/fuxian/Voxel_Field_Fusion/VFF-main/pcdet/config.py", line 66, in merge_new_config
+    merge_new_config(config[key], val)
+  File "/home/xilm/fuxian/Voxel_Field_Fusion/VFF-main/pcdet/config.py", line 53, in merge_new_config
+    with open(new_config['_BASE_CONFIG_'], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'cfgs/dataset_configs/kitti_dataset.yaml'
