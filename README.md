@@ -6,7 +6,7 @@
 
 ------------------------------
 Reference:  
-1. pointpillar-ros[github](https://github.com/BIT-DYN/pointpillars_ros);  
+1. pointpillar-ros [github](https://github.com/BIT-DYN/pointpillars_ros);  
 2. some csdn blogs   
 - [1.original](https://blog.csdn.net/weixin_43807148/article/details/125867953?spm=1001.2014.3001.5502);  
 - [2.modified](https://blog.csdn.net/jiachang98/article/details/126106126?spm=1001.2014.3001.5501);  
